@@ -100,9 +100,9 @@ export const CATEGORIES = [
 
 export const SUBCATEGORIES_MAP = {
   'cat-pickle': ['All', 'Mango', 'Lime', 'Chicken', 'Mutton', 'Non-Veg Prawn', 'Fish'],
-  'cat-honey': ['All', 'Wild Forest', 'Flower & Herbal'],
+  'cat-honey': ['All', 'Wild Forest', 'Flower & Herbal', 'Mountain', 'Flower'],
   'cat-brownie': ['All', 'Dark Chocolate'],
-  'cat-sweets': ['All', 'Ghee Sweets', 'Mysore Pak'],
+  'cat-sweets': ['All', 'Ghee Sweets', 'Mysore Pak', 'Laddu', 'Kaju Katli', 'Assorted Sweets'],
   'cat-thokku': ['All', 'Tomato Garlic'],
   'cat-snacks': ['All', 'Roasted Cashews'],
   'cat-healthymix': ['All', 'Sathu Maavu'],
@@ -130,7 +130,7 @@ export const PRODUCTS = [
     mfgDate: '15 Sep 2026',
     expiryDate: '14 Sep 2027',
     storageInstructions: 'Store in a cool, dry place away from direct sunlight. Use a clean dry spoon.',
-    ingredients: 'Raw Raw Mango Pieces, Cold-pressed Gingelly Oil, Guntur Red Chili Powder, Roasted Mustard Seeds, Fenugreek Powder, Asafoetida, Rock Salt.',
+    ingredients: 'Raw Mango Pieces, Cold-pressed Gingelly Oil, Guntur Red Chili Powder, Roasted Mustard Seeds, Fenugreek Powder, Asafoetida, Rock Salt.',
     description: 'Traditional Andhra-style spicy cut mango pickle crafted with premium farm-fresh raw mangoes and authentic cold-pressed sesame oil. Perfect with warm rice & ghee.',
     images: [
       '/images/products/mango_pickle_1.jpg',
@@ -161,14 +161,6 @@ export const PRODUCTS = [
         comment: 'Very tasty with curd rice. Long shelf life seal is very sturdy.',
         userLocation: 'Chennai',
       },
-      {
-        id: 'rev-3',
-        user: 'Karthik Raja',
-        date: '20 Sep 2026',
-        rating: 4,
-        comment: 'Spicy and flavorful. Spice lovers will enjoy it.',
-        userLocation: 'Bengaluru',
-      }
     ],
     photoReviews: [
       '/images/products/mango_pickle_1.jpg',
@@ -206,6 +198,7 @@ export const PRODUCTS = [
       '/images/products/wild_honey_1.jpg',
       '/images/products/wild_honey_2.jpg',
       '/images/products/wild_honey_3.jpg',
+      '/images/products/wild_honey_4.jpg',
     ],
     aspectRatings: {
       price: 4.7,
@@ -222,14 +215,6 @@ export const PRODUCTS = [
         comment: 'Pure honey! Thick consistency and deep natural aroma. My morning warm water ritual feels refreshing.',
         userLocation: 'Coimbatore',
       },
-      {
-        id: 'rev-202',
-        user: 'Suresh Kumar',
-        date: '01 Oct 2026',
-        rating: 5,
-        comment: 'Authentic mountain honey taste. Premium glass bottle packaging.',
-        userLocation: 'Madurai',
-      }
     ],
     photoReviews: [
       '/images/products/wild_honey_1.jpg'
@@ -266,6 +251,7 @@ export const PRODUCTS = [
       '/images/products/brownie_1.jpg',
       '/images/products/brownie_2.jpg',
       '/images/products/brownie_3.jpg',
+      '/images/products/brownie_4.jpg',
     ],
     aspectRatings: {
       price: 4.6,
@@ -286,7 +272,9 @@ export const PRODUCTS = [
     photoReviews: [
       '/images/products/brownie_1.jpg'
     ],
-    videoReviews: [],
+    videoReviews: [
+      { title: 'Fudgy Center Demonstration', duration: '0:35', thumbnail: '/images/products/brownie_2.jpg' }
+    ],
     isForYou: true,
     isRecentlyViewed: true,
     isFeaturedOffer: false,
@@ -316,6 +304,7 @@ export const PRODUCTS = [
       '/images/products/gulab_jamun_1.jpg',
       '/images/products/gulab_jamun_2.jpg',
       '/images/products/gulab_jamun_3.jpg',
+      '/images/products/gulab_jamun_4.jpg',
     ],
     aspectRatings: {
       price: 4.8,
@@ -333,8 +322,12 @@ export const PRODUCTS = [
         userLocation: 'RS Puram, Coimbatore',
       }
     ],
-    photoReviews: [],
-    videoReviews: [],
+    photoReviews: [
+      '/images/products/gulab_jamun_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Serving Gulab Jamun', duration: '0:45', thumbnail: '/images/products/gulab_jamun_2.jpg' }
+    ],
     isForYou: true,
     isRecentlyViewed: false,
     isFeaturedOffer: true,
@@ -363,6 +356,8 @@ export const PRODUCTS = [
     images: [
       '/images/products/masala_cashews_1.jpg',
       '/images/products/masala_cashews_2.jpg',
+      '/images/products/masala_cashews_3.jpg',
+      '/images/products/masala_cashews_4.jpg',
     ],
     aspectRatings: {
       price: 4.5,
@@ -371,8 +366,12 @@ export const PRODUCTS = [
       quantity: 4.6,
     },
     reviews: [],
-    photoReviews: [],
-    videoReviews: [],
+    photoReviews: [
+      '/images/products/masala_cashews_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Crunchiness Test', duration: '0:30', thumbnail: '/images/products/masala_cashews_2.jpg' }
+    ],
     isForYou: true,
     isRecentlyViewed: true,
     isFeaturedOffer: false,
@@ -401,6 +400,8 @@ export const PRODUCTS = [
     images: [
       '/images/products/thokku_1.jpg',
       '/images/products/thokku_2.jpg',
+      '/images/products/thokku_3.jpg',
+      '/images/products/thokku_4.jpg',
     ],
     aspectRatings: {
       price: 4.8,
@@ -409,8 +410,12 @@ export const PRODUCTS = [
       quantity: 4.7,
     },
     reviews: [],
-    photoReviews: [],
-    videoReviews: [],
+    photoReviews: [
+      '/images/products/thokku_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Recipe Combination', duration: '0:40', thumbnail: '/images/products/thokku_2.jpg' }
+    ],
     isForYou: true,
     isRecentlyViewed: false,
     isFeaturedOffer: true,
@@ -439,6 +444,8 @@ export const PRODUCTS = [
     images: [
       '/images/products/prawn_pickle_1.jpg',
       '/images/products/prawn_pickle_2.jpg',
+      '/images/products/prawn_pickle_3.jpg',
+      '/images/products/prawn_pickle_4.jpg',
     ],
     aspectRatings: {
       price: 4.7,
@@ -447,8 +454,12 @@ export const PRODUCTS = [
       quantity: 4.8,
     },
     reviews: [],
-    photoReviews: [],
-    videoReviews: [],
+    photoReviews: [
+      '/images/products/prawn_pickle_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Prawn Pickle Taste Test', duration: '0:45', thumbnail: '/images/products/prawn_pickle_2.jpg' }
+    ],
     isForYou: false,
     isRecentlyViewed: false,
     isFeaturedOffer: true,
@@ -476,7 +487,9 @@ export const PRODUCTS = [
     description: 'Nectar gathered naturally by bees feeding on drumstick blossom blooms. High iron content and distinct herbal sweetness.',
     images: [
       '/images/products/herbal_honey_1.jpg',
-      '/images/products/honeycomb_1.jpg',
+      '/images/products/herbal_honey_2.jpg',
+      '/images/products/herbal_honey_3.jpg',
+      '/images/products/herbal_honey_4.jpg',
     ],
     aspectRatings: {
       price: 4.6,
@@ -485,8 +498,12 @@ export const PRODUCTS = [
       quantity: 4.7,
     },
     reviews: [],
-    photoReviews: [],
-    videoReviews: [],
+    photoReviews: [
+      '/images/products/herbal_honey_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Herbal Honey Inspection', duration: '0:50', thumbnail: '/images/products/herbal_honey_2.jpg' }
+    ],
     isForYou: false,
     isRecentlyViewed: false,
     isFeaturedOffer: false,
@@ -515,6 +532,8 @@ export const PRODUCTS = [
     images: [
       '/images/products/sathu_maavu_1.jpg',
       '/images/products/sathu_maavu_2.jpg',
+      '/images/products/sathu_maavu_3.jpg',
+      '/images/products/sathu_maavu_4.jpg',
     ],
     aspectRatings: {
       price: 4.9,
@@ -523,8 +542,12 @@ export const PRODUCTS = [
       quantity: 4.9,
     },
     reviews: [],
-    photoReviews: [],
-    videoReviews: [],
+    photoReviews: [
+      '/images/products/sathu_maavu_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Porridge Mixing Guide', duration: '1:00', thumbnail: '/images/products/sathu_maavu_2.jpg' }
+    ],
     isForYou: false,
     isRecentlyViewed: false,
     isFeaturedOffer: true,
@@ -553,6 +576,8 @@ export const PRODUCTS = [
     images: [
       '/images/products/mysore_pak_1.jpg',
       '/images/products/mysore_pak_2.jpg',
+      '/images/products/mysore_pak_3.jpg',
+      '/images/products/mysore_pak_4.jpg',
     ],
     aspectRatings: {
       price: 4.7,
@@ -561,8 +586,12 @@ export const PRODUCTS = [
       quantity: 4.8,
     },
     reviews: [],
-    photoReviews: [],
-    videoReviews: [],
+    photoReviews: [
+      '/images/products/mysore_pak_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Melt-in-mouth texture', duration: '0:40', thumbnail: '/images/products/mysore_pak_2.jpg' }
+    ],
     isForYou: false,
     isRecentlyViewed: false,
     isFeaturedOffer: true,
@@ -590,6 +619,9 @@ export const PRODUCTS = [
     description: 'Slow-roasted wood-fire aromatic South Indian curry spice powders prepared in small artisanal batches.',
     images: [
       '/images/products/masala_powder_1.jpg',
+      '/images/products/masala_powder_2.jpg',
+      '/images/products/masala_powder_3.jpg',
+      '/images/products/masala_powder_4.jpg',
     ],
     aspectRatings: {
       price: 4.8,
@@ -598,8 +630,12 @@ export const PRODUCTS = [
       quantity: 4.8,
     },
     reviews: [],
-    photoReviews: [],
-    videoReviews: [],
+    photoReviews: [
+      '/images/products/masala_powder_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Aroma Unboxing', duration: '0:45', thumbnail: '/images/products/masala_powder_2.jpg' }
+    ],
     isForYou: false,
     isRecentlyViewed: false,
     isFeaturedOffer: false,
@@ -627,6 +663,9 @@ export const PRODUCTS = [
     description: 'Vacuum-packed crisp nuts rich in Vitamin E and Omega-3 fatty acids.',
     images: [
       '/images/products/dry_fruits_1.jpg',
+      '/images/products/dry_fruits_2.jpg',
+      '/images/products/dry_fruits_3.jpg',
+      '/images/products/dry_fruits_4.jpg',
     ],
     aspectRatings: {
       price: 4.6,
@@ -635,12 +674,412 @@ export const PRODUCTS = [
       quantity: 4.8,
     },
     reviews: [],
-    photoReviews: [],
-    videoReviews: [],
+    photoReviews: [
+      '/images/products/dry_fruits_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Nut Crunchiness Test', duration: '0:35', thumbnail: '/images/products/dry_fruits_2.jpg' }
+    ],
     isForYou: false,
     isRecentlyViewed: false,
     isFeaturedOffer: false,
     offerLabel: '',
+  },
+  {
+    id: 'prod-13',
+    name: 'Spicy Country Chicken Pickle',
+    category: 'cat-pickle',
+    categoryName: 'Pickle',
+    subcategory: 'Chicken',
+    brandId: 'brand-3',
+    brandName: "Amma's Pickle Kitchen",
+    price: 360,
+    originalPrice: 420,
+    discountPercentage: 14,
+    rating: 4.8,
+    reviewCount: 340,
+    weight: '400g Jar',
+    shelfLife: '6 Months',
+    mfgDate: '10 Sep 2026',
+    expiryDate: '09 Mar 2027',
+    storageInstructions: 'Store in a cool dry place. Keep oil level above meat pieces.',
+    ingredients: 'Boneless Country Chicken, Gingelly Oil, Guntur Chili, Garlic, Ginger, Cloves, Cardamom, Vinegar, Rock Salt.',
+    description: 'Authentic South Indian bone-free chicken pickle marinated in aromatic ground masalas and pure sesame oil.',
+    images: [
+      '/images/products/chicken_pickle_1.jpg',
+      '/images/products/chicken_pickle_2.jpg',
+      '/images/products/chicken_pickle_3.jpg',
+      '/images/products/chicken_pickle_4.jpg',
+    ],
+    aspectRatings: {
+      price: 4.7,
+      taste: 4.9,
+      quality: 4.8,
+      quantity: 4.7,
+    },
+    reviews: [],
+    photoReviews: [
+      '/images/products/chicken_pickle_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Chicken Pickle Unboxing', duration: '0:50', thumbnail: '/images/products/chicken_pickle_2.jpg' }
+    ],
+    isForYou: false,
+    isRecentlyViewed: false,
+    isFeaturedOffer: false,
+    offerLabel: '',
+  },
+  {
+    id: 'prod-14',
+    name: 'Heritage Spiced Mutton Pickle',
+    category: 'cat-pickle',
+    categoryName: 'Pickle',
+    subcategory: 'Mutton',
+    brandId: 'brand-3',
+    brandName: "Amma's Pickle Kitchen",
+    price: 480,
+    originalPrice: 550,
+    discountPercentage: 13,
+    rating: 4.9,
+    reviewCount: 290,
+    weight: '400g Jar',
+    shelfLife: '6 Months',
+    mfgDate: '12 Sep 2026',
+    expiryDate: '11 Mar 2027',
+    storageInstructions: 'Keep lid tight. Always use dry spoon.',
+    ingredients: 'Tender Boneless Mutton, Cold-pressed Gingelly Oil, Hand-ground Spices, Red Chili, Garlic, Tamarind.',
+    description: 'Rich and tender boneless mutton pieces slow-cooked and preserved in traditional Madurai spices.',
+    images: [
+      '/images/products/mutton_pickle_1.jpg',
+      '/images/products/mutton_pickle_2.jpg',
+      '/images/products/mutton_pickle_3.jpg',
+      '/images/products/mutton_pickle_4.jpg',
+    ],
+    aspectRatings: {
+      price: 4.6,
+      taste: 5.0,
+      quality: 4.9,
+      quantity: 4.8,
+    },
+    reviews: [],
+    photoReviews: [
+      '/images/products/mutton_pickle_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Mutton Pickle Tasting', duration: '0:45', thumbnail: '/images/products/mutton_pickle_2.jpg' }
+    ],
+    isForYou: false,
+    isRecentlyViewed: false,
+    isFeaturedOffer: false,
+    offerLabel: '',
+  },
+  {
+    id: 'prod-15',
+    name: 'Malabar Spicy Fish Pickle',
+    category: 'cat-pickle',
+    categoryName: 'Pickle',
+    subcategory: 'Fish',
+    brandId: 'brand-1',
+    brandName: 'Coastal Harvest Foods',
+    price: 320,
+    originalPrice: 380,
+    discountPercentage: 16,
+    rating: 4.8,
+    reviewCount: 310,
+    weight: '350g Jar',
+    shelfLife: '6 Months',
+    mfgDate: '08 Sep 2026',
+    expiryDate: '07 Mar 2027',
+    storageInstructions: 'Store in cool place. Ensure oil layer covers fish pieces.',
+    ingredients: 'Fresh Sear Fish Fillets, Mustard Oil, Fenugreek, Green Chilies, Ginger, Garlic, Vinegar.',
+    description: 'Crisp fried coastal fish chunks steeped in tangy Kerala spice blend and aromatic oils.',
+    images: [
+      '/images/products/fish_pickle_1.jpg',
+      '/images/products/fish_pickle_2.jpg',
+      '/images/products/fish_pickle_3.jpg',
+      '/images/products/fish_pickle_4.jpg',
+    ],
+    aspectRatings: {
+      price: 4.7,
+      taste: 4.9,
+      quality: 4.8,
+      quantity: 4.7,
+    },
+    reviews: [],
+    photoReviews: [
+      '/images/products/fish_pickle_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Fish Pickle Review', duration: '0:50', thumbnail: '/images/products/fish_pickle_2.jpg' }
+    ],
+    isForYou: false,
+    isRecentlyViewed: false,
+    isFeaturedOffer: false,
+    offerLabel: '',
+  },
+  {
+    id: 'prod-16',
+    name: 'Sun-Cured Spicy Lime Pickle',
+    category: 'cat-pickle',
+    categoryName: 'Pickle',
+    subcategory: 'Lime',
+    brandId: 'brand-3',
+    brandName: "Amma's Pickle Kitchen",
+    price: 160,
+    originalPrice: 190,
+    discountPercentage: 16,
+    rating: 4.7,
+    reviewCount: 220,
+    weight: '400g Jar',
+    shelfLife: '12 Months',
+    mfgDate: '14 Sep 2026',
+    expiryDate: '13 Sep 2027',
+    storageInstructions: 'Store in dry jar. Sun-cure occasionally if desired.',
+    ingredients: 'Juicy Yellow Lemons, Mustard Powder, Red Chili, Asafoetida, Gingelly Oil, Sea Salt.',
+    description: 'Traditional sun-ripened yellow lime pickle with a fiery bite and mouthwatering sourness.',
+    images: [
+      '/images/products/lime_pickle_1.jpg',
+      '/images/products/lime_pickle_2.jpg',
+      '/images/products/lime_pickle_3.jpg',
+      '/images/products/lime_pickle_4.jpg',
+    ],
+    aspectRatings: {
+      price: 4.8,
+      taste: 4.8,
+      quality: 4.7,
+      quantity: 4.8,
+    },
+    reviews: [],
+    photoReviews: [
+      '/images/products/lime_pickle_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Lime Pickle Unboxing', duration: '0:35', thumbnail: '/images/products/lime_pickle_2.jpg' }
+    ],
+    isForYou: false,
+    isRecentlyViewed: false,
+    isFeaturedOffer: false,
+    offerLabel: '',
+  },
+  {
+    id: 'prod-17',
+    name: 'Western Ghats Natural Mountain Honey',
+    category: 'cat-honey',
+    categoryName: 'Honey',
+    subcategory: 'Mountain',
+    brandId: 'brand-2',
+    brandName: 'Nilgiri Honey House',
+    price: 450,
+    originalPrice: 520,
+    discountPercentage: 13,
+    rating: 4.9,
+    reviewCount: 380,
+    weight: '500g Glass Jar',
+    shelfLife: '24 Months',
+    mfgDate: '02 Sep 2026',
+    expiryDate: '01 Sep 2028',
+    storageInstructions: 'Keep in cool dry pantry.',
+    ingredients: '100% Raw Wild Mountain Honey.',
+    description: 'Dense dark mountain honey collected from wild hives high up in the Western Ghats mountain ranges.',
+    images: [
+      '/images/products/mountain_honey_1.jpg',
+      '/images/products/mountain_honey_2.jpg',
+      '/images/products/mountain_honey_3.jpg',
+      '/images/products/mountain_honey_4.jpg',
+    ],
+    aspectRatings: {
+      price: 4.7,
+      taste: 5.0,
+      quality: 5.0,
+      quantity: 4.8,
+    },
+    reviews: [],
+    photoReviews: [
+      '/images/products/mountain_honey_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Mountain Honey Purity Test', duration: '0:50', thumbnail: '/images/products/mountain_honey_2.jpg' }
+    ],
+    isForYou: false,
+    isRecentlyViewed: false,
+    isFeaturedOffer: false,
+    offerLabel: '',
+  },
+  {
+    id: 'prod-18',
+    name: 'Pure Unprocessed Flower Honey',
+    category: 'cat-honey',
+    categoryName: 'Honey',
+    subcategory: 'Flower',
+    brandId: 'brand-2',
+    brandName: 'Nilgiri Honey House',
+    price: 350,
+    originalPrice: 400,
+    discountPercentage: 12,
+    rating: 4.8,
+    reviewCount: 260,
+    weight: '500g Jar',
+    shelfLife: '24 Months',
+    mfgDate: '05 Sep 2026',
+    expiryDate: '04 Sep 2028',
+    storageInstructions: 'Store at room temperature.',
+    ingredients: '100% Pure Multifloral Honey.',
+    description: 'Sweet light-amber honey harvested from seasonal wild flower fields.',
+    images: [
+      '/images/products/flower_honey_1.jpg',
+      '/images/products/flower_honey_2.jpg',
+      '/images/products/flower_honey_3.jpg',
+      '/images/products/flower_honey_4.jpg',
+    ],
+    aspectRatings: {
+      price: 4.8,
+      taste: 4.8,
+      quality: 4.9,
+      quantity: 4.7,
+    },
+    reviews: [],
+    photoReviews: [
+      '/images/products/flower_honey_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Flower Honey Pouring Test', duration: '0:40', thumbnail: '/images/products/flower_honey_2.jpg' }
+    ],
+    isForYou: false,
+    isRecentlyViewed: false,
+    isFeaturedOffer: false,
+    offerLabel: '',
+  },
+  {
+    id: 'prod-19',
+    name: 'Traditional Ghee Besan Laddu Pack',
+    category: 'cat-sweets',
+    categoryName: 'Sweets',
+    subcategory: 'Laddu',
+    brandId: 'brand-5',
+    brandName: 'Heritage Sweet House',
+    price: 280,
+    originalPrice: 320,
+    discountPercentage: 12,
+    rating: 4.9,
+    reviewCount: 510,
+    weight: '400g Box',
+    shelfLife: '45 Days',
+    mfgDate: '20 Sep 2026',
+    expiryDate: '04 Nov 2026',
+    storageInstructions: 'Store in dry place.',
+    ingredients: 'Gram Flour (Besan), Pure Cow Ghee, Sugar, Cardamom, Almond Slivers.',
+    description: 'Aromatic roasted gram flour balls crafted in cow ghee and garnished with slivered nuts.',
+    images: [
+      '/images/products/laddu_1.jpg',
+      '/images/products/laddu_2.jpg',
+      '/images/products/laddu_3.jpg',
+      '/images/products/laddu_4.jpg',
+    ],
+    aspectRatings: {
+      price: 4.8,
+      taste: 4.9,
+      quality: 4.9,
+      quantity: 4.8,
+    },
+    reviews: [],
+    photoReviews: [
+      '/images/products/laddu_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Laddu Softness Test', duration: '0:35', thumbnail: '/images/products/laddu_2.jpg' }
+    ],
+    isForYou: false,
+    isRecentlyViewed: false,
+    isFeaturedOffer: false,
+    offerLabel: '',
+  },
+  {
+    id: 'prod-20',
+    name: 'Royal Silver Foil Kaju Katli',
+    category: 'cat-sweets',
+    categoryName: 'Sweets',
+    subcategory: 'Kaju Katli',
+    brandId: 'brand-5',
+    brandName: 'Heritage Sweet House',
+    price: 420,
+    originalPrice: 490,
+    discountPercentage: 14,
+    rating: 4.9,
+    reviewCount: 630,
+    weight: '400g Gift Box',
+    shelfLife: '30 Days',
+    mfgDate: '21 Sep 2026',
+    expiryDate: '21 Oct 2026',
+    storageInstructions: 'Keep in cool dry box.',
+    ingredients: 'Premium Cashews, Sugar, Edible Silver Leaf (Vark), Cardamom.',
+    description: 'Diamond-shaped delicate cashew fudges topped with pure silver foil.',
+    images: [
+      '/images/products/kaju_katli_1.jpg',
+      '/images/products/kaju_katli_2.jpg',
+      '/images/products/kaju_katli_3.jpg',
+      '/images/products/kaju_katli_4.jpg',
+    ],
+    aspectRatings: {
+      price: 4.7,
+      taste: 5.0,
+      quality: 5.0,
+      quantity: 4.7,
+    },
+    reviews: [],
+    photoReviews: [
+      '/images/products/kaju_katli_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Kaju Katli Box Opening', duration: '0:40', thumbnail: '/images/products/kaju_katli_2.jpg' }
+    ],
+    isForYou: false,
+    isRecentlyViewed: false,
+    isFeaturedOffer: false,
+    offerLabel: '',
+  },
+  {
+    id: 'prod-21',
+    name: 'Grand Festive Assorted Indian Sweets Box',
+    category: 'cat-sweets',
+    categoryName: 'Sweets',
+    subcategory: 'Assorted Sweets',
+    brandId: 'brand-5',
+    brandName: 'Heritage Sweet House',
+    price: 599,
+    originalPrice: 700,
+    discountPercentage: 14,
+    rating: 4.9,
+    reviewCount: 840,
+    weight: '750g Gift Box',
+    shelfLife: '30 Days',
+    mfgDate: '19 Sep 2026',
+    expiryDate: '19 Oct 2026',
+    storageInstructions: 'Store in cool ambient room.',
+    ingredients: 'Assorted Ghee Sweets, Mysore Pak, Kaju Katli, Besan Laddu, Dry Fruit Halwa.',
+    description: 'Luxurious gift collection featuring 5 varieties of traditional Indian ghee confections.',
+    images: [
+      '/images/products/sweets_assorted_1.jpg',
+      '/images/products/sweets_assorted_2.jpg',
+      '/images/products/sweets_assorted_3.jpg',
+      '/images/products/sweets_assorted_4.jpg',
+    ],
+    aspectRatings: {
+      price: 4.8,
+      taste: 5.0,
+      quality: 5.0,
+      quantity: 4.9,
+    },
+    reviews: [],
+    photoReviews: [
+      '/images/products/sweets_assorted_1.jpg'
+    ],
+    videoReviews: [
+      { title: 'Festive Gift Unboxing', duration: '1:00', thumbnail: '/images/products/sweets_assorted_2.jpg' }
+    ],
+    isForYou: false,
+    isRecentlyViewed: false,
+    isFeaturedOffer: true,
+    offerLabel: 'Festive Bestseller',
   }
 ];
 
@@ -649,7 +1088,7 @@ export const INITIAL_ORDERS = [
     id: 'ORD-89412',
     date: '04 Oct 2026, 11:30 AM',
     expectedDelivery: '08 Oct 2026',
-    status: 'Out for Delivery', // Order Placed, Confirmed, Ready to Ship, Out for Delivery, Delivered, Cancelled
+    status: 'Out for Delivery',
     items: [
       {
         product: PRODUCTS[0],
