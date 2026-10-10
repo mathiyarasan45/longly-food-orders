@@ -36,8 +36,8 @@ export const BRANDS = [
     rating: 4.8,
     reviewsCount: 1240,
     specialty: 'Authentic Coastal Pickles & Seafood Delicacies',
-    logo: '/images/products/brand1_logo.jpg',
-    banner: '/images/products/brand1_banner.jpg',
+    logo: '/images/products/brand1_logo.jpg?v=4',
+    banner: '/images/products/brand1_banner.jpg?v=4',
   },
   {
     id: 'brand-2',
@@ -47,8 +47,8 @@ export const BRANDS = [
     rating: 4.9,
     reviewsCount: 2890,
     specialty: 'Unprocessed Organic Mountain & Flower Honey',
-    logo: '/images/products/brand2_logo.jpg',
-    banner: '/images/products/brand2_banner.jpg',
+    logo: '/images/products/brand2_logo.jpg?v=4',
+    banner: '/images/products/brand2_banner.jpg?v=4',
   },
   {
     id: 'brand-3',
@@ -58,8 +58,8 @@ export const BRANDS = [
     rating: 4.9,
     reviewsCount: 4150,
     specialty: 'Traditional Sun-Dried Sun-Cured Pickles & Thokku',
-    logo: '/images/products/brand3_logo.jpg',
-    banner: '/images/products/brand3_banner.jpg',
+    logo: '/images/products/brand3_logo.jpg?v=4',
+    banner: '/images/products/brand3_banner.jpg?v=4',
   },
   {
     id: 'brand-4',
@@ -69,8 +69,8 @@ export const BRANDS = [
     rating: 4.7,
     reviewsCount: 980,
     specialty: 'Spiced Masalas, Healthy Grain Mixes & Savouries',
-    logo: '/images/products/brand4_logo.jpg',
-    banner: '/images/products/brand4_banner.jpg',
+    logo: '/images/products/brand4_logo.jpg?v=4',
+    banner: '/images/products/brand4_banner.jpg?v=4',
   },
   {
     id: 'brand-5',
@@ -80,22 +80,22 @@ export const BRANDS = [
     rating: 4.9,
     reviewsCount: 5600,
     specialty: 'Long-Life Ghee Sweets & Traditional Indian Confections',
-    logo: '/images/products/brand5_logo.jpg',
-    banner: '/images/products/brand5_banner.jpg',
+    logo: '/images/products/brand5_logo.jpg?v=4',
+    banner: '/images/products/brand5_banner.jpg?v=4',
   }
 ];
 
 export const CATEGORIES = [
-  { id: 'cat-honey', name: 'Honey', icon: '🍯', count: '14 Varieties', image: '/images/products/cat_honey.jpg' },
-  { id: 'cat-pickle', name: 'Pickle', icon: '🫙', count: '28 Varieties', image: '/images/products/cat_pickle.jpg' },
-  { id: 'cat-brownie', name: 'Brownie', icon: '🍫', count: '9 Varieties', image: '/images/products/cat_brownie.jpg' },
-  { id: 'cat-sweets', name: 'Sweets', icon: '🪔', count: '22 Varieties', image: '/images/products/cat_sweets.jpg' },
-  { id: 'cat-thokku', name: 'Thokku', icon: '🍲', count: '11 Varieties', image: '/images/products/cat_thokku.jpg' },
-  { id: 'cat-snacks', name: 'Snacks', icon: '🥨', count: '35 Varieties', image: '/images/products/cat_snacks.jpg' },
-  { id: 'cat-healthymix', name: 'Healthy Mix', icon: '🌱', count: '16 Varieties', image: '/images/products/cat_healthymix.jpg' },
-  { id: 'cat-masala', name: 'Masala', icon: '🌶️', count: '24 Varieties', image: '/images/products/cat_masala.jpg' },
-  { id: 'cat-dryfruits', name: 'Dry Fruits', icon: '🥜', count: '18 Varieties', image: '/images/products/cat_dryfruits.jpg' },
-  { id: 'cat-other', name: 'Other Long-Life Foods', icon: '📦', count: '12 Varieties', image: '/images/products/cat_other.jpg' },
+  { id: 'cat-honey', name: 'Honey', icon: '🍯', count: '14 Varieties', image: '/images/products/cat_honey.jpg?v=4' },
+  { id: 'cat-pickle', name: 'Pickle', icon: '🫙', count: '28 Varieties', image: '/images/products/cat_pickle.jpg?v=4' },
+  { id: 'cat-brownie', name: 'Brownie', icon: '🍫', count: '9 Varieties', image: '/images/products/cat_brownie.jpg?v=4' },
+  { id: 'cat-sweets', name: 'Sweets', icon: '🪔', count: '22 Varieties', image: '/images/products/cat_sweets.jpg?v=4' },
+  { id: 'cat-thokku', name: 'Thokku', icon: '🍲', count: '11 Varieties', image: '/images/products/cat_thokku.jpg?v=4' },
+  { id: 'cat-snacks', name: 'Snacks', icon: '🥨', count: '35 Varieties', image: '/images/products/cat_snacks.jpg?v=4' },
+  { id: 'cat-healthymix', name: 'Healthy Mix', icon: '🌱', count: '16 Varieties', image: '/images/products/cat_healthymix.jpg?v=4' },
+  { id: 'cat-masala', name: 'Masala', icon: '🌶️', count: '24 Varieties', image: '/images/products/cat_masala.jpg?v=4' },
+  { id: 'cat-dryfruits', name: 'Dry Fruits', icon: '🥜', count: '18 Varieties', image: '/images/products/cat_dryfruits.jpg?v=4' },
+  { id: 'cat-other', name: 'Other Long-Life Foods', icon: '📦', count: '12 Varieties', image: '/images/products/cat_other.jpg?v=4' },
 ];
 
 export const SUBCATEGORIES_MAP = {
@@ -133,10 +133,10 @@ export const PRODUCTS = [
     ingredients: 'Raw Mango Pieces, Cold-pressed Gingelly Oil, Guntur Red Chili Powder, Roasted Mustard Seeds, Fenugreek Powder, Asafoetida, Rock Salt.',
     description: 'Traditional Andhra-style spicy cut mango pickle crafted with premium farm-fresh raw mangoes and authentic cold-pressed sesame oil. Perfect with warm rice & ghee.',
     images: [
-      '/images/products/mango_pickle_1.jpg',
-      '/images/products/mango_pickle_2.jpg',
-      '/images/products/mango_pickle_3.jpg',
-      '/images/products/mango_pickle_4.jpg',
+      '/images/products/mango_pickle_1.jpg?v=4',
+      '/images/products/mango_pickle_2.jpg?v=4',
+      '/images/products/mango_pickle_3.jpg?v=4',
+      '/images/products/mango_pickle_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.8,
@@ -163,11 +163,11 @@ export const PRODUCTS = [
       },
     ],
     photoReviews: [
-      '/images/products/mango_pickle_1.jpg',
-      '/images/products/mango_pickle_2.jpg'
+      '/images/products/mango_pickle_1.jpg?v=4',
+      '/images/products/mango_pickle_2.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Unboxing & Taste Test', duration: '0:45', thumbnail: '/images/products/mango_pickle_1.jpg' }
+      { title: 'Unboxing & Taste Test', duration: '0:45', thumbnail: '/images/products/mango_pickle_1.jpg?v=4' }
     ],
     isForYou: true,
     isRecentlyViewed: true,
@@ -195,10 +195,10 @@ export const PRODUCTS = [
     ingredients: '100% Pure Unfiltered Unheated Forest Honey harvested from Western Ghats apiaries.',
     description: 'Raw, unpasteurized wild flower honey gathered naturally from the high slopes of the Nilgiri hills. Rich in natural enzymes, pollen, and antioxidants.',
     images: [
-      '/images/products/wild_honey_1.jpg',
-      '/images/products/wild_honey_2.jpg',
-      '/images/products/wild_honey_3.jpg',
-      '/images/products/wild_honey_4.jpg',
+      '/images/products/wild_honey_1.jpg?v=4',
+      '/images/products/wild_honey_2.jpg?v=4',
+      '/images/products/wild_honey_3.jpg?v=4',
+      '/images/products/wild_honey_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.7,
@@ -217,10 +217,10 @@ export const PRODUCTS = [
       },
     ],
     photoReviews: [
-      '/images/products/wild_honey_1.jpg'
+      '/images/products/wild_honey_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Purity Test Demonstration', duration: '1:10', thumbnail: '/images/products/wild_honey_2.jpg' }
+      { title: 'Purity Test Demonstration', duration: '1:10', thumbnail: '/images/products/wild_honey_2.jpg?v=4' }
     ],
     isForYou: true,
     isRecentlyViewed: true,
@@ -248,10 +248,10 @@ export const PRODUCTS = [
     ingredients: 'Dark Couverture Chocolate (70%), Whole Wheat Flour, Pure Cow Ghee, Brown Sugar, Organic Cocoa Powder, Sea Salt.',
     description: 'Specialty long-life vacuum-sealed artisan brownies baked with real cocoa and rich cow ghee. Stays soft and fudgy without preservatives.',
     images: [
-      '/images/products/brownie_1.jpg',
-      '/images/products/brownie_2.jpg',
-      '/images/products/brownie_3.jpg',
-      '/images/products/brownie_4.jpg',
+      '/images/products/brownie_1.jpg?v=4',
+      '/images/products/brownie_2.jpg?v=4',
+      '/images/products/brownie_3.jpg?v=4',
+      '/images/products/brownie_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.6,
@@ -270,10 +270,10 @@ export const PRODUCTS = [
       }
     ],
     photoReviews: [
-      '/images/products/brownie_1.jpg'
+      '/images/products/brownie_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Fudgy Center Demonstration', duration: '0:35', thumbnail: '/images/products/brownie_2.jpg' }
+      { title: 'Fudgy Center Demonstration', duration: '0:35', thumbnail: '/images/products/brownie_2.jpg?v=4' }
     ],
     isForYou: true,
     isRecentlyViewed: true,
@@ -301,10 +301,10 @@ export const PRODUCTS = [
     ingredients: 'Concentrated Milk Solids (Khoa), Pure Cow Ghee, Refined Sugar Syrup, Cardamom Pods, Saffron Strands.',
     description: 'Authentic heritage Gulab Jamuns slow-cooked in pure cow ghee and sealed in sterilized tin canisters for long shelf life.',
     images: [
-      '/images/products/gulab_jamun_1.jpg',
-      '/images/products/gulab_jamun_2.jpg',
-      '/images/products/gulab_jamun_3.jpg',
-      '/images/products/gulab_jamun_4.jpg',
+      '/images/products/gulab_jamun_1.jpg?v=4',
+      '/images/products/gulab_jamun_2.jpg?v=4',
+      '/images/products/gulab_jamun_3.jpg?v=4',
+      '/images/products/gulab_jamun_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.8,
@@ -323,10 +323,10 @@ export const PRODUCTS = [
       }
     ],
     photoReviews: [
-      '/images/products/gulab_jamun_1.jpg'
+      '/images/products/gulab_jamun_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Serving Gulab Jamun', duration: '0:45', thumbnail: '/images/products/gulab_jamun_2.jpg' }
+      { title: 'Serving Gulab Jamun', duration: '0:45', thumbnail: '/images/products/gulab_jamun_2.jpg?v=4' }
     ],
     isForYou: true,
     isRecentlyViewed: false,
@@ -354,10 +354,10 @@ export const PRODUCTS = [
     ingredients: 'Whole Jumbo W240 Cashews, Clarified Butter, Kashmiri Red Chili, Black Salt, Pepper, Curry Leaves Extract.',
     description: 'Whole coastal mangalore cashews slow-roasted in ghee and tossed in aromatic South Indian spice mix.',
     images: [
-      '/images/products/masala_cashews_1.jpg',
-      '/images/products/masala_cashews_2.jpg',
-      '/images/products/masala_cashews_3.jpg',
-      '/images/products/masala_cashews_4.jpg',
+      '/images/products/masala_cashews_1.jpg?v=4',
+      '/images/products/masala_cashews_2.jpg?v=4',
+      '/images/products/masala_cashews_3.jpg?v=4',
+      '/images/products/masala_cashews_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.5,
@@ -367,10 +367,10 @@ export const PRODUCTS = [
     },
     reviews: [],
     photoReviews: [
-      '/images/products/masala_cashews_1.jpg'
+      '/images/products/masala_cashews_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Crunchiness Test', duration: '0:30', thumbnail: '/images/products/masala_cashews_2.jpg' }
+      { title: 'Crunchiness Test', duration: '0:30', thumbnail: '/images/products/masala_cashews_2.jpg?v=4' }
     ],
     isForYou: true,
     isRecentlyViewed: true,
@@ -398,10 +398,10 @@ export const PRODUCTS = [
     ingredients: 'Ripe Country Tomatoes, Small Country Garlic, Cold-pressed Gingelly Oil, Mustard, Tamarind Pulp, Asafoetida.',
     description: 'Slow-simmered Chettinad style concentrated tomato garlic pickle relish. Pairs brilliantly with Idli, Dosa, Chapati & Curd Rice.',
     images: [
-      '/images/products/thokku_1.jpg',
-      '/images/products/thokku_2.jpg',
-      '/images/products/thokku_3.jpg',
-      '/images/products/thokku_4.jpg',
+      '/images/products/thokku_1.jpg?v=4',
+      '/images/products/thokku_2.jpg?v=4',
+      '/images/products/thokku_3.jpg?v=4',
+      '/images/products/thokku_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.8,
@@ -411,10 +411,10 @@ export const PRODUCTS = [
     },
     reviews: [],
     photoReviews: [
-      '/images/products/thokku_1.jpg'
+      '/images/products/thokku_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Recipe Combination', duration: '0:40', thumbnail: '/images/products/thokku_2.jpg' }
+      { title: 'Recipe Combination', duration: '0:40', thumbnail: '/images/products/thokku_2.jpg?v=4' }
     ],
     isForYou: true,
     isRecentlyViewed: false,
@@ -442,10 +442,10 @@ export const PRODUCTS = [
     ingredients: 'Fresh Sea Prawns, Coconut Vinegar, Ginger Garlic Paste, Byadgi Chili, Ground Mustard, Gingelly Oil.',
     description: 'Authentic coastal non-veg pickle packed with juicy sun-dried prawns and Tangy Byadgi chili marinade.',
     images: [
-      '/images/products/prawn_pickle_1.jpg',
-      '/images/products/prawn_pickle_2.jpg',
-      '/images/products/prawn_pickle_3.jpg',
-      '/images/products/prawn_pickle_4.jpg',
+      '/images/products/prawn_pickle_1.jpg?v=4',
+      '/images/products/prawn_pickle_2.jpg?v=4',
+      '/images/products/prawn_pickle_3.jpg?v=4',
+      '/images/products/prawn_pickle_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.7,
@@ -455,10 +455,10 @@ export const PRODUCTS = [
     },
     reviews: [],
     photoReviews: [
-      '/images/products/prawn_pickle_1.jpg'
+      '/images/products/prawn_pickle_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Prawn Pickle Taste Test', duration: '0:45', thumbnail: '/images/products/prawn_pickle_2.jpg' }
+      { title: 'Prawn Pickle Taste Test', duration: '0:45', thumbnail: '/images/products/prawn_pickle_2.jpg?v=4' }
     ],
     isForYou: false,
     isRecentlyViewed: false,
@@ -486,10 +486,10 @@ export const PRODUCTS = [
     ingredients: 'Single-origin Moringa Flower Nectar collected during bloom season.',
     description: 'Nectar gathered naturally by bees feeding on drumstick blossom blooms. High iron content and distinct herbal sweetness.',
     images: [
-      '/images/products/herbal_honey_1.jpg',
-      '/images/products/herbal_honey_2.jpg',
-      '/images/products/herbal_honey_3.jpg',
-      '/images/products/herbal_honey_4.jpg',
+      '/images/products/herbal_honey_1.jpg?v=4',
+      '/images/products/herbal_honey_2.jpg?v=4',
+      '/images/products/herbal_honey_3.jpg?v=4',
+      '/images/products/herbal_honey_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.6,
@@ -499,10 +499,10 @@ export const PRODUCTS = [
     },
     reviews: [],
     photoReviews: [
-      '/images/products/herbal_honey_1.jpg'
+      '/images/products/herbal_honey_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Herbal Honey Inspection', duration: '0:50', thumbnail: '/images/products/herbal_honey_2.jpg' }
+      { title: 'Herbal Honey Inspection', duration: '0:50', thumbnail: '/images/products/herbal_honey_2.jpg?v=4' }
     ],
     isForYou: false,
     isRecentlyViewed: false,
@@ -530,10 +530,10 @@ export const PRODUCTS = [
     ingredients: 'Sprouted Ragi, Pearl Millet, Sorghum, Barley, Green Gram, Badam, Cardamom, Dry Ginger.',
     description: 'Sprouted cereal and pulse porridge powder sweetened with natural cardamoms and dry ginger. Ideal daily nutritious long-life breakfast.',
     images: [
-      '/images/products/sathu_maavu_1.jpg',
-      '/images/products/sathu_maavu_2.jpg',
-      '/images/products/sathu_maavu_3.jpg',
-      '/images/products/sathu_maavu_4.jpg',
+      '/images/products/sathu_maavu_1.jpg?v=4',
+      '/images/products/sathu_maavu_2.jpg?v=4',
+      '/images/products/sathu_maavu_3.jpg?v=4',
+      '/images/products/sathu_maavu_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.9,
@@ -543,10 +543,10 @@ export const PRODUCTS = [
     },
     reviews: [],
     photoReviews: [
-      '/images/products/sathu_maavu_1.jpg'
+      '/images/products/sathu_maavu_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Porridge Mixing Guide', duration: '1:00', thumbnail: '/images/products/sathu_maavu_2.jpg' }
+      { title: 'Porridge Mixing Guide', duration: '1:00', thumbnail: '/images/products/sathu_maavu_2.jpg?v=4' }
     ],
     isForYou: false,
     isRecentlyViewed: false,
@@ -574,10 +574,10 @@ export const PRODUCTS = [
     ingredients: 'Besan (Gram Flour), Pure Cow Ghee (60%), Sugar, Cardamom Essence.',
     description: 'Royal melt-in-the-mouth Mysore Pak crafted with clarified butter and premium roasted gram flour.',
     images: [
-      '/images/products/mysore_pak_1.jpg',
-      '/images/products/mysore_pak_2.jpg',
-      '/images/products/mysore_pak_3.jpg',
-      '/images/products/mysore_pak_4.jpg',
+      '/images/products/mysore_pak_1.jpg?v=4',
+      '/images/products/mysore_pak_2.jpg?v=4',
+      '/images/products/mysore_pak_3.jpg?v=4',
+      '/images/products/mysore_pak_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.7,
@@ -587,10 +587,10 @@ export const PRODUCTS = [
     },
     reviews: [],
     photoReviews: [
-      '/images/products/mysore_pak_1.jpg'
+      '/images/products/mysore_pak_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Melt-in-mouth texture', duration: '0:40', thumbnail: '/images/products/mysore_pak_2.jpg' }
+      { title: 'Melt-in-mouth texture', duration: '0:40', thumbnail: '/images/products/mysore_pak_2.jpg?v=4' }
     ],
     isForYou: false,
     isRecentlyViewed: false,
@@ -618,10 +618,10 @@ export const PRODUCTS = [
     ingredients: 'Coriander Seeds, Red Chilies, Toor Dal, Chana Dal, Cumin, Black Pepper, Turmeric, Fenugreek, Asafoetida.',
     description: 'Slow-roasted wood-fire aromatic South Indian curry spice powders prepared in small artisanal batches.',
     images: [
-      '/images/products/masala_powder_1.jpg',
-      '/images/products/masala_powder_2.jpg',
-      '/images/products/masala_powder_3.jpg',
-      '/images/products/masala_powder_4.jpg',
+      '/images/products/masala_powder_1.jpg?v=4',
+      '/images/products/masala_powder_2.jpg?v=4',
+      '/images/products/masala_powder_3.jpg?v=4',
+      '/images/products/masala_powder_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.8,
@@ -631,10 +631,10 @@ export const PRODUCTS = [
     },
     reviews: [],
     photoReviews: [
-      '/images/products/masala_powder_1.jpg'
+      '/images/products/masala_powder_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Aroma Unboxing', duration: '0:45', thumbnail: '/images/products/masala_powder_2.jpg' }
+      { title: 'Aroma Unboxing', duration: '0:45', thumbnail: '/images/products/masala_powder_2.jpg?v=4' }
     ],
     isForYou: false,
     isRecentlyViewed: false,
@@ -662,10 +662,10 @@ export const PRODUCTS = [
     ingredients: '100% Whole California Almonds & Jumbo Kashmir Walnut Kernels.',
     description: 'Vacuum-packed crisp nuts rich in Vitamin E and Omega-3 fatty acids.',
     images: [
-      '/images/products/dry_fruits_1.jpg',
-      '/images/products/dry_fruits_2.jpg',
-      '/images/products/dry_fruits_3.jpg',
-      '/images/products/dry_fruits_4.jpg',
+      '/images/products/dry_fruits_1.jpg?v=4',
+      '/images/products/dry_fruits_2.jpg?v=4',
+      '/images/products/dry_fruits_3.jpg?v=4',
+      '/images/products/dry_fruits_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.6,
@@ -675,10 +675,10 @@ export const PRODUCTS = [
     },
     reviews: [],
     photoReviews: [
-      '/images/products/dry_fruits_1.jpg'
+      '/images/products/dry_fruits_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Nut Crunchiness Test', duration: '0:35', thumbnail: '/images/products/dry_fruits_2.jpg' }
+      { title: 'Nut Crunchiness Test', duration: '0:35', thumbnail: '/images/products/dry_fruits_2.jpg?v=4' }
     ],
     isForYou: false,
     isRecentlyViewed: false,
@@ -706,10 +706,10 @@ export const PRODUCTS = [
     ingredients: 'Boneless Country Chicken, Gingelly Oil, Guntur Chili, Garlic, Ginger, Cloves, Cardamom, Vinegar, Rock Salt.',
     description: 'Authentic South Indian bone-free chicken pickle marinated in aromatic ground masalas and pure sesame oil.',
     images: [
-      '/images/products/chicken_pickle_1.jpg',
-      '/images/products/chicken_pickle_2.jpg',
-      '/images/products/chicken_pickle_3.jpg',
-      '/images/products/chicken_pickle_4.jpg',
+      '/images/products/chicken_pickle_1.jpg?v=4',
+      '/images/products/chicken_pickle_2.jpg?v=4',
+      '/images/products/chicken_pickle_3.jpg?v=4',
+      '/images/products/chicken_pickle_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.7,
@@ -719,10 +719,10 @@ export const PRODUCTS = [
     },
     reviews: [],
     photoReviews: [
-      '/images/products/chicken_pickle_1.jpg'
+      '/images/products/chicken_pickle_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Chicken Pickle Unboxing', duration: '0:50', thumbnail: '/images/products/chicken_pickle_2.jpg' }
+      { title: 'Chicken Pickle Unboxing', duration: '0:50', thumbnail: '/images/products/chicken_pickle_2.jpg?v=4' }
     ],
     isForYou: false,
     isRecentlyViewed: false,
@@ -750,10 +750,10 @@ export const PRODUCTS = [
     ingredients: 'Tender Boneless Mutton, Cold-pressed Gingelly Oil, Hand-ground Spices, Red Chili, Garlic, Tamarind.',
     description: 'Rich and tender boneless mutton pieces slow-cooked and preserved in traditional Madurai spices.',
     images: [
-      '/images/products/mutton_pickle_1.jpg',
-      '/images/products/mutton_pickle_2.jpg',
-      '/images/products/mutton_pickle_3.jpg',
-      '/images/products/mutton_pickle_4.jpg',
+      '/images/products/mutton_pickle_1.jpg?v=4',
+      '/images/products/mutton_pickle_2.jpg?v=4',
+      '/images/products/mutton_pickle_3.jpg?v=4',
+      '/images/products/mutton_pickle_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.6,
@@ -763,10 +763,10 @@ export const PRODUCTS = [
     },
     reviews: [],
     photoReviews: [
-      '/images/products/mutton_pickle_1.jpg'
+      '/images/products/mutton_pickle_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Mutton Pickle Tasting', duration: '0:45', thumbnail: '/images/products/mutton_pickle_2.jpg' }
+      { title: 'Mutton Pickle Tasting', duration: '0:45', thumbnail: '/images/products/mutton_pickle_2.jpg?v=4' }
     ],
     isForYou: false,
     isRecentlyViewed: false,
@@ -794,10 +794,10 @@ export const PRODUCTS = [
     ingredients: 'Fresh Sear Fish Fillets, Mustard Oil, Fenugreek, Green Chilies, Ginger, Garlic, Vinegar.',
     description: 'Crisp fried coastal fish chunks steeped in tangy Kerala spice blend and aromatic oils.',
     images: [
-      '/images/products/fish_pickle_1.jpg',
-      '/images/products/fish_pickle_2.jpg',
-      '/images/products/fish_pickle_3.jpg',
-      '/images/products/fish_pickle_4.jpg',
+      '/images/products/fish_pickle_1.jpg?v=4',
+      '/images/products/fish_pickle_2.jpg?v=4',
+      '/images/products/fish_pickle_3.jpg?v=4',
+      '/images/products/fish_pickle_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.7,
@@ -807,10 +807,10 @@ export const PRODUCTS = [
     },
     reviews: [],
     photoReviews: [
-      '/images/products/fish_pickle_1.jpg'
+      '/images/products/fish_pickle_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Fish Pickle Review', duration: '0:50', thumbnail: '/images/products/fish_pickle_2.jpg' }
+      { title: 'Fish Pickle Review', duration: '0:50', thumbnail: '/images/products/fish_pickle_2.jpg?v=4' }
     ],
     isForYou: false,
     isRecentlyViewed: false,
@@ -838,10 +838,10 @@ export const PRODUCTS = [
     ingredients: 'Juicy Yellow Lemons, Mustard Powder, Red Chili, Asafoetida, Gingelly Oil, Sea Salt.',
     description: 'Traditional sun-ripened yellow lime pickle with a fiery bite and mouthwatering sourness.',
     images: [
-      '/images/products/lime_pickle_1.jpg',
-      '/images/products/lime_pickle_2.jpg',
-      '/images/products/lime_pickle_3.jpg',
-      '/images/products/lime_pickle_4.jpg',
+      '/images/products/lime_pickle_1.jpg?v=4',
+      '/images/products/lime_pickle_2.jpg?v=4',
+      '/images/products/lime_pickle_3.jpg?v=4',
+      '/images/products/lime_pickle_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.8,
@@ -851,10 +851,10 @@ export const PRODUCTS = [
     },
     reviews: [],
     photoReviews: [
-      '/images/products/lime_pickle_1.jpg'
+      '/images/products/lime_pickle_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Lime Pickle Unboxing', duration: '0:35', thumbnail: '/images/products/lime_pickle_2.jpg' }
+      { title: 'Lime Pickle Unboxing', duration: '0:35', thumbnail: '/images/products/lime_pickle_2.jpg?v=4' }
     ],
     isForYou: false,
     isRecentlyViewed: false,
@@ -882,10 +882,10 @@ export const PRODUCTS = [
     ingredients: '100% Raw Wild Mountain Honey.',
     description: 'Dense dark mountain honey collected from wild hives high up in the Western Ghats mountain ranges.',
     images: [
-      '/images/products/mountain_honey_1.jpg',
-      '/images/products/mountain_honey_2.jpg',
-      '/images/products/mountain_honey_3.jpg',
-      '/images/products/mountain_honey_4.jpg',
+      '/images/products/mountain_honey_1.jpg?v=4',
+      '/images/products/mountain_honey_2.jpg?v=4',
+      '/images/products/mountain_honey_3.jpg?v=4',
+      '/images/products/mountain_honey_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.7,
@@ -895,10 +895,10 @@ export const PRODUCTS = [
     },
     reviews: [],
     photoReviews: [
-      '/images/products/mountain_honey_1.jpg'
+      '/images/products/mountain_honey_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Mountain Honey Purity Test', duration: '0:50', thumbnail: '/images/products/mountain_honey_2.jpg' }
+      { title: 'Mountain Honey Purity Test', duration: '0:50', thumbnail: '/images/products/mountain_honey_2.jpg?v=4' }
     ],
     isForYou: false,
     isRecentlyViewed: false,
@@ -926,10 +926,10 @@ export const PRODUCTS = [
     ingredients: '100% Pure Multifloral Honey.',
     description: 'Sweet light-amber honey harvested from seasonal wild flower fields.',
     images: [
-      '/images/products/flower_honey_1.jpg',
-      '/images/products/flower_honey_2.jpg',
-      '/images/products/flower_honey_3.jpg',
-      '/images/products/flower_honey_4.jpg',
+      '/images/products/flower_honey_1.jpg?v=4',
+      '/images/products/flower_honey_2.jpg?v=4',
+      '/images/products/flower_honey_3.jpg?v=4',
+      '/images/products/flower_honey_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.8,
@@ -939,10 +939,10 @@ export const PRODUCTS = [
     },
     reviews: [],
     photoReviews: [
-      '/images/products/flower_honey_1.jpg'
+      '/images/products/flower_honey_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Flower Honey Pouring Test', duration: '0:40', thumbnail: '/images/products/flower_honey_2.jpg' }
+      { title: 'Flower Honey Pouring Test', duration: '0:40', thumbnail: '/images/products/flower_honey_2.jpg?v=4' }
     ],
     isForYou: false,
     isRecentlyViewed: false,
@@ -970,10 +970,10 @@ export const PRODUCTS = [
     ingredients: 'Gram Flour (Besan), Pure Cow Ghee, Sugar, Cardamom, Almond Slivers.',
     description: 'Aromatic roasted gram flour balls crafted in cow ghee and garnished with slivered nuts.',
     images: [
-      '/images/products/laddu_1.jpg',
-      '/images/products/laddu_2.jpg',
-      '/images/products/laddu_3.jpg',
-      '/images/products/laddu_4.jpg',
+      '/images/products/laddu_1.jpg?v=4',
+      '/images/products/laddu_2.jpg?v=4',
+      '/images/products/laddu_3.jpg?v=4',
+      '/images/products/laddu_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.8,
@@ -983,10 +983,10 @@ export const PRODUCTS = [
     },
     reviews: [],
     photoReviews: [
-      '/images/products/laddu_1.jpg'
+      '/images/products/laddu_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Laddu Softness Test', duration: '0:35', thumbnail: '/images/products/laddu_2.jpg' }
+      { title: 'Laddu Softness Test', duration: '0:35', thumbnail: '/images/products/laddu_2.jpg?v=4' }
     ],
     isForYou: false,
     isRecentlyViewed: false,
@@ -1014,10 +1014,10 @@ export const PRODUCTS = [
     ingredients: 'Premium Cashews, Sugar, Edible Silver Leaf (Vark), Cardamom.',
     description: 'Diamond-shaped delicate cashew fudges topped with pure silver foil.',
     images: [
-      '/images/products/kaju_katli_1.jpg',
-      '/images/products/kaju_katli_2.jpg',
-      '/images/products/kaju_katli_3.jpg',
-      '/images/products/kaju_katli_4.jpg',
+      '/images/products/kaju_katli_1.jpg?v=4',
+      '/images/products/kaju_katli_2.jpg?v=4',
+      '/images/products/kaju_katli_3.jpg?v=4',
+      '/images/products/kaju_katli_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.7,
@@ -1027,10 +1027,10 @@ export const PRODUCTS = [
     },
     reviews: [],
     photoReviews: [
-      '/images/products/kaju_katli_1.jpg'
+      '/images/products/kaju_katli_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Kaju Katli Box Opening', duration: '0:40', thumbnail: '/images/products/kaju_katli_2.jpg' }
+      { title: 'Kaju Katli Box Opening', duration: '0:40', thumbnail: '/images/products/kaju_katli_2.jpg?v=4' }
     ],
     isForYou: false,
     isRecentlyViewed: false,
@@ -1058,10 +1058,10 @@ export const PRODUCTS = [
     ingredients: 'Assorted Ghee Sweets, Mysore Pak, Kaju Katli, Besan Laddu, Dry Fruit Halwa.',
     description: 'Luxurious gift collection featuring 5 varieties of traditional Indian ghee confections.',
     images: [
-      '/images/products/sweets_assorted_1.jpg',
-      '/images/products/sweets_assorted_2.jpg',
-      '/images/products/sweets_assorted_3.jpg',
-      '/images/products/sweets_assorted_4.jpg',
+      '/images/products/sweets_assorted_1.jpg?v=4',
+      '/images/products/sweets_assorted_2.jpg?v=4',
+      '/images/products/sweets_assorted_3.jpg?v=4',
+      '/images/products/sweets_assorted_4.jpg?v=4',
     ],
     aspectRatings: {
       price: 4.8,
@@ -1071,10 +1071,10 @@ export const PRODUCTS = [
     },
     reviews: [],
     photoReviews: [
-      '/images/products/sweets_assorted_1.jpg'
+      '/images/products/sweets_assorted_1.jpg?v=4'
     ],
     videoReviews: [
-      { title: 'Festive Gift Unboxing', duration: '1:00', thumbnail: '/images/products/sweets_assorted_2.jpg' }
+      { title: 'Festive Gift Unboxing', duration: '1:00', thumbnail: '/images/products/sweets_assorted_2.jpg?v=4' }
     ],
     isForYou: false,
     isRecentlyViewed: false,
